@@ -1,0 +1,65 @@
+/* initioation*/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+header .topofpage,
+.logo {
+  display: inline-flex;
+}
+.topofpage {
+  padding-left: 1100px;
+}
+.topofpage li {
+  display: inline;
+}
+h2 {
+  text-align: center;
+  text-shadow: lightcoral;
+  font-family: roboto;
+  font-style: italic;
+  padding: 20px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  color: maroon;
+}
+section * {
+  display: block;
+  padding: 10px;
+  border-spacing: 30px;
+  margin: 10px;
+}
+section .assest,
+.information {
+  display: block;
+}
+.information {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+#about .assest,
+.information {
+  display: inline;
+}
+main h2 ~ div {
+  display: inline-block;
+  height: 300px;
+  width: 600px;
+}
+#h3footer ~ li {
+  display: block;
+  padding-left: 1000px;
+}
+#h3footer {
+  padding-left: 1000px;
+  color: #880f58;
+}
+h3 {
+  color: #880f58;
+}
+#prjects .logo,
+.formation,
+.projet {
+  display: inline-flexbox;
+}

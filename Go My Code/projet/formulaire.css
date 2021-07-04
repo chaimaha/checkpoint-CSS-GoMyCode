@@ -1,0 +1,34 @@
+li {
+  display: inline;
+  color: blue;
+  align-items: flex-end;
+}
+header div {
+  display: inline;
+}
+input {
+  display: block;
+}
+body main {
+  align-items: center;
+  padding: 10px 100px;
+  margin: 10px 100px;
+}
+header .topofpage,
+.logo {
+  display: inline-flex;
+}
+.topofpage {
+  padding-left: 600px;
+}
+label {
+  color: brown;
+}
+h3 ~ li {
+  display: block;
+  padding-left: 600px;
+}
+h3 {
+  padding-left: 600px;
+  color: #880f58;
+}
